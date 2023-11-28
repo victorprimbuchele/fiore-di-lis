@@ -1,0 +1,104 @@
+[
+    {
+        "title": "<b>Pizza & Diversão:</b> Como Tornamos Cada Mordida uma Experiência Memorável!",
+        "image": "/src/assets/Home/Section/Blog/pessoas_comendo.png",
+        "content": "string",
+        "author": "string",
+        "read_time": "string",
+        "rating": "string",
+        "comments": [
+            {
+                "author": "string",
+                "date": "string",
+                "content": "string",
+                "likes": 0,
+                "replies": 0
+            }
+        ]
+    },
+    {
+        "title": "<b>Muito Além da Margherita:</b> uma viagem ao século 19",
+        "image": "/src/assets/Home/Section/Blog/margherita.png",
+        "content": "string",
+        "author": "string",
+        "read_time": "string",
+        "rating": "string",
+        "comments": [
+            {
+                "author": "string",
+                "date": "string",
+                "content": "string",
+                "likes": 0,
+                "replies": 0
+            }
+        ]
+    },
+    {
+        "title": "<b>A Arte da Massa Perfeita: </b> O Segredo por Trás das Nossas Pizzas Irresistíveis",
+        "image": "/src/assets/Home/Section/Blog/massa_tabua.png",
+        "content": "string",
+        "author": "string",
+        "read_time": "string",
+        "rating": "string",
+        "comments": [
+            {
+                "author": "string",
+                "date": "string",
+                "content": "string",
+                "likes": 0,
+                "replies": 0
+            }
+        ]
+    },  
+    {
+        "title": "<b>Muito Além da Margherita:</b> uma viagem ao século 19",
+        "image": "/src/assets/Home/Section/Blog/margherita.png",
+        "content": "string",
+        "author": "string",
+        "read_time": "string",
+        "rating": "string",
+        "comments": [
+            {
+                "author": "string",
+                "date": "string",
+                "content": "string",
+                "likes": 0,
+                "replies": 0
+            }
+        ]
+    },
+    {
+        "title": "<b>Pizza & Diversão:</b> Como Tornamos Cada Mordida uma Experiência Memorável!",
+        "image": "/src/assets/Home/Section/Blog/pessoas_comendo.png",
+        "content": "string",
+        "author": "string",
+        "read_time": "string",
+        "rating": "string",
+        "comments": [
+            {
+                "author": "string",
+                "date": "string",
+                "content": "string",
+                "likes": 0,
+                "replies": 0
+            }
+        ]
+    },
+    {
+        "title": "<b>A Arte da Massa Perfeita: </b> O Segredo por Trás das Nossas Pizzas Irresistíveis",
+        "image": "/src/assets/Home/Section/Blog/massa_tabua.png",
+        "content": "string",
+        "author": "string",
+        "read_time": "string",
+        "rating": "string",
+        "comments": [
+            {
+                "author": "string",
+                "date": "string",
+                "content": "string",
+                "likes": 0,
+                "replies": 0
+            }
+        ]
+    }
+]
