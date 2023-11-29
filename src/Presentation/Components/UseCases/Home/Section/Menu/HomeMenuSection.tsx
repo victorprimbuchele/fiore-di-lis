@@ -1,6 +1,4 @@
 import { useNavigate } from 'react-router-dom';
-import menuSectionFirstImage from '../../../../../../assets/Home/Section/Menu/baking-delicious-pizza-with-wood-fired-oven.png';
-import menuSectionSecondImage from '../../../../../../assets/Home/Section/Menu/ingredients-utensils-near-pizza-dough.png';
 
 export const HomeMenuSection: React.FC = () => {
     const navigate = useNavigate();
@@ -15,8 +13,8 @@ export const HomeMenuSection: React.FC = () => {
                     Explore a magia da culinária italiana em cada prato. Uma jornada de sabores, ingredientes selecionados e preparados com paixão. Sinta o amor pela comida em cada mordida, porque aqui, cada prato é uma história de coragem e dedicação.
                 </p>
                 <div className="flex flex-col lg:flex-row pt-4 sm:pt-0 gap-y-4 lg:gap-y-0 lg:gap-x-6 justify-center">
-                    <img className='lg:w-1/3' src={menuSectionFirstImage} alt='Pizza sendo colocada no forno'/>
-                    <img className="hidden sm:block lg:w-1/3" src={menuSectionSecondImage} alt='Massa e alguns ingredientes como: tomates frescos, molho de tomate, cogumelos' />
+                    <img className='lg:w-1/3' src="https://fiore-di-lis-2.s3.us-east-2.amazonaws.com/assets/Home/Section/Menu/baking-delicious-pizza-with-wood-fired-oven.png" alt='Pizza sendo colocada no forno'/>
+                    <img className="hidden sm:block lg:w-1/3" src="https://fiore-di-lis-2.s3.us-east-2.amazonaws.com/assets/Home/Section/Menu/ingredients-utensils-near-pizza-dough.png" alt='Massa e alguns ingredientes como: tomates frescos, molho de tomate, cogumelos' />
                 </div>
             </div>
             <button onClick={() => navigate('/menu')} className="border border-gold text-gold bg-transparent lg:text-2xl hover:bg-gold hover:text-white mt-14 py-2 px-6">MENU</button>

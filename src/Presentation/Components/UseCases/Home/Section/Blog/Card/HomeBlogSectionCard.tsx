@@ -4,7 +4,7 @@ import { HomeBlogSectionProps } from './HomeBlogSectionCard.types';
 
 export const HomeBlogSectionCard: React.FC<HomeBlogSectionProps> = ({image, title}) => {
     return (
-        <Card className="bg-black text-center rounded-2xl lg:h-80 lg:w-1/4">
+        <Card className="bg-black text-center rounded-2xl sm:h-52 md:h-60 lg:h-72 xl:h-80 2xl:h-96 lg:w-1/4">
             <img src={image} className='object-none rounded-t-2xl'/>
             <div className="w-full h-px bg-gradient-to-r from-gold via-yellow-pastel to-gold"></div>
             <Card.Body className="text-center flex flex-col justify-evenly items-center lg:h-3/6 2xl:h-2/5 lg:px-4">

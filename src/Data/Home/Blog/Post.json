@@ -1,7 +1,7 @@
 [
     {
         "title": "<b>Pizza & Diversão:</b> Como Tornamos Cada Mordida uma Experiência Memorável!",
-        "image": "/src/assets/Home/Section/Blog/pessoas_comendo.png",
+        "image": "https://fiore-di-lis-2.s3.us-east-2.amazonaws.com/assets/Home/Section/Blog/pessoas_comendo.png",
         "content": "string",
         "author": "string",
         "read_time": "string",
@@ -18,7 +18,7 @@
     },
     {
         "title": "<b>Muito Além da Margherita:</b> uma viagem ao século 19",
-        "image": "/src/assets/Home/Section/Blog/margherita.png",
+        "image": "https://fiore-di-lis-2.s3.us-east-2.amazonaws.com/assets/Home/Section/Blog/margherita.png",
         "content": "string",
         "author": "string",
         "read_time": "string",
@@ -35,7 +35,7 @@
     },
     {
         "title": "<b>A Arte da Massa Perfeita: </b> O Segredo por Trás das Nossas Pizzas Irresistíveis",
-        "image": "/src/assets/Home/Section/Blog/massa_tabua.png",
+        "image": "https://fiore-di-lis-2.s3.us-east-2.amazonaws.com/assets/Home/Section/Blog/massa_tabua.png",
         "content": "string",
         "author": "string",
         "read_time": "string",
@@ -52,7 +52,7 @@
     },  
     {
         "title": "<b>Muito Além da Margherita:</b> uma viagem ao século 19",
-        "image": "/src/assets/Home/Section/Blog/margherita.png",
+        "image": "https://fiore-di-lis-2.s3.us-east-2.amazonaws.com/assets/Home/Section/Blog/margherita.png",
         "content": "string",
         "author": "string",
         "read_time": "string",
@@ -69,7 +69,7 @@
     },
     {
         "title": "<b>Pizza & Diversão:</b> Como Tornamos Cada Mordida uma Experiência Memorável!",
-        "image": "/src/assets/Home/Section/Blog/pessoas_comendo.png",
+        "image": "https://fiore-di-lis-2.s3.us-east-2.amazonaws.com/assets/Home/Section/Blog/pessoas_comendo.png",
         "content": "string",
         "author": "string",
         "read_time": "string",
@@ -86,7 +86,7 @@
     },
     {
         "title": "<b>A Arte da Massa Perfeita: </b> O Segredo por Trás das Nossas Pizzas Irresistíveis",
-        "image": "/src/assets/Home/Section/Blog/massa_tabua.png",
+        "image": "https://fiore-di-lis-2.s3.us-east-2.amazonaws.com/assets/Home/Section/Blog/massa_tabua.png",
         "content": "string",
         "author": "string",
         "read_time": "string",

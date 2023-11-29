@@ -23,8 +23,8 @@ export default {
         'grey-light': '#ABABA'
       },
       backgroundImage: {
-        'home-bg-top': "url(src/assets/Home/Section/Top/background-header.png)",
-        'home-bg-bottom': "url(src/assets/Home/Section/Bottom/background-bottom.png)",
+        'home-bg-top': "url(https://fiore-di-lis-2.s3.us-east-2.amazonaws.com/assets/Home/Section/Top/background-header.png)",
+        'home-bg-bottom': "url(https://fiore-di-lis-2.s3.us-east-2.amazonaws.com/assets/Home/Section/Bottom/background-bottom.png)",
       }
     }
   },

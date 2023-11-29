@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Post } from "../../Domain/Post/Post";
 import { getAllPosts } from "../../Domain/Post/UseCases/getAll";
-import { isMobile } from "react-device-detect";
+import { isMobile, isTablet } from "react-device-detect";
 
 export const useHomeController = () => {
     const [maximumCards, setMaximumCards] = useState(3);
@@ -31,12 +31,12 @@ export const useHomeController = () => {
     }, []);
 
     useEffect(() => {
-        if (isMobile) {
+        if (isMobile || isTablet) {
             setMaximumCards(1);
         } else {
             setMaximumCards(3);
         }
-    }, [isMobile]);
+    }, [isMobile, isTablet]);
 
     useEffect(() => {
         handleRenderablePosts()
