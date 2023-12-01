@@ -1,14 +1,19 @@
 [
     {
-        "image": "src/assets/Menu/Menu/Items/pizza_vegetariana.png",
-        "alt": "Pizza vegetariana",
+        "image": {
+            "src": "src/assets/Menu/Menu/Items/pizza_vegetariana.png",
+            "alt": "Pizza vegetariana"
+        },
         "title": "PIZZA VEGETARIANA",
         "price": "R$ 45,00",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac placerat dui.",
         "category": "pizza" 
     },
     {
-        "image": "src/assets/Menu/Menu/Items/pizza_vegetariana.png",
+        "image": {
+            "src": "src/assets/Menu/Menu/Items/pizza_vegetariana.png",
+            "alt": "Pizza vegetariana"
+        },
         "alt": "Pizza vegetariana",
         "title": "PIZZA VEGETARIANA",
         "price": "R$ 45,00",

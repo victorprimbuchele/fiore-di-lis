@@ -45,7 +45,7 @@ export const Menu: React.FC = () => {
             </section>
             <section id="menu-items-container" className={isMobile ? 'grid grid-cols-1 gap-y-4 pt-6' : 'grid grid-cols-2 gap-4 xl:gap-8 gap-y-4 px-24 pt-12'}>
                 {menuItems.map((menuItem, i) => {
-                    return <MenuItemCard key={'menu-item-card' + '@' + i} alt={menuItem.alt} description={menuItem.description} image={menuItem.image} price={menuItem.price} title={menuItem.title} />
+                    return <MenuItemCard key={'menu-item-card' + '@' + i} image={menuItem.image} description={menuItem.description} price={menuItem.price} title={menuItem.title} />
                 })}
             </section>
         </div>

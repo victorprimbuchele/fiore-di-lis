@@ -9,6 +9,7 @@ export default {
       'sans': ['Ruda', 'sans-serif'],
       'serif': ['Quattrocento', 'serif'],
       'montserrat': ['Montserrat', 'SFMono-Regular'],
+      'lora': ['Lora', 'serif'],
     },
     extend: {
       colors: {

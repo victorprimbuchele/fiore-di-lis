@@ -1,5 +1,7 @@
+import { Author } from "../Author/Author"
+
 export interface Comment {
-    author: string,
+    author: Author,
     date: string,
     content: string,
     likes: number

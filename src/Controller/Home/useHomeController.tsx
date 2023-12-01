@@ -1,9 +1,10 @@
 import { useEffect, useState } from "react";
 import { Post } from "../../Domain/Post/Post";
-import { getAllPosts } from "../../Domain/Post/UseCases/getAll";
 import { isMobile, isTablet } from "react-device-detect";
+import { BlogPostController } from "../Blog/BlogPost/BlogPostController";
 
 export const useHomeController = () => {
+    const blogPostController = new BlogPostController();
     const [maximumCards, setMaximumCards] = useState(3);
     const [chunkedPosts, setChunckedPosts] = useState<Post[][][]>([]);
     const [posts, setPosts] = useState<Post[]>([]);
@@ -13,7 +14,6 @@ export const useHomeController = () => {
 
     const handleIndex = (selectedIndex: number) => {
         if (selectedIndex > chunkedPosts.length) {
-            console.log('índice maior que 0')
             setIndex(0);
             return;
         }
@@ -27,7 +27,7 @@ export const useHomeController = () => {
     };
 
     useEffect(() => {
-        setPosts(getAllPosts());
+        setPosts(blogPostController.getAll());
     }, []);
 
     useEffect(() => {

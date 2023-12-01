@@ -6,7 +6,7 @@ export const HomeBlogSection: React.FC = () => {
   const { renderablePosts, handleIndex, index, isLoading } = useHomeController();
   
   return (
-    <section id='blog' className='text-white lg:px-12 2xl:px-24 bg-almost-black pb-24 lg:pb-32 2xl:pb-36 border-t border-t-gold' key="blog">
+    <section id='blog' className='text-white border-t border-t-gold bg-almost-black pb-24 lg:pb-32 lg:px-12 2xl:pb-36 2xl:px-48' key="blog">
       <div className='flex flex-col items-center mb-6'>
         <h2 className='pt-20 lg:pt-24 2xl:pt-32 font-serif text-4xl lg:text-6xl w-fit'>BLOG</h2>
         <h6 className='pt-4 lg:pt-10 font-serif text-xl lg:text-3xl w-fit'>ÚLTIMOS ARTIGOS</h6>
@@ -23,7 +23,7 @@ export const HomeBlogSection: React.FC = () => {
             </Spinner>) :
               renderablePosts?.map((post, i) => {
                 return (
-                  <HomeBlogSectionCard image={post.image} title={post.title} key={post.title + '@' + i} />
+                  <HomeBlogSectionCard image={post.image.src} title={post.title} slug={"/blog/" + post.slug} key={post.title + '@' + i} />
                 )
               })
           }

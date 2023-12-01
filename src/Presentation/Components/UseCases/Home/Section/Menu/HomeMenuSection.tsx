@@ -4,7 +4,7 @@ export const HomeMenuSection: React.FC = () => {
     const navigate = useNavigate();
 
     return (
-        <section id='menu' className='text-white px-12 lg:px-24 text-center' key="menu">
+        <section id='menu' className='text-white text-center px-12 lg:px-24 2xl:px-60' key="menu">
             <div className='flex flex-col items-center mb-6'>
                 <h2 className='pt-20 lg:pt-24 2xl:pt-40 border-b-8 border-b-green-italy font-serif text-4xl md:text-5xl 2xl:text-6xl w-fit'>NOSSO MENU</h2>
             </div>

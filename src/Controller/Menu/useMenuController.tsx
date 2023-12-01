@@ -1,13 +1,14 @@
 import { useEffect, useState } from "react"
-import { MenuItem } from "../../Domain/MenuItems/MenuItems";
-import { MenuItemCategoryTypes, filterMenuItemsByCategory, getAllMenuItem } from "../../Domain/MenuItems/UseCases/getAll";
+import { MenuItem, MenuItemCategoryTypes } from "../../Domain/MenuItems/MenuItems";
+import { MenuItemsController } from "./Items/MenuItemsController";
 
 interface ItemTypesMenuDictInterface {
     label: string,
     value: MenuItemCategoryTypes
 }
 
-export const useMenuController = () => {   
+export const useMenuController = () => {
+    const menuItemsController = new MenuItemsController();
     const [selectedItemType, setSelectedItemType] = useState<MenuItemCategoryTypes>('all');
     const [menuItems, setMenuItems] = useState<MenuItem[]>([])
 
@@ -35,7 +36,7 @@ export const useMenuController = () => {
     ]
 
     useEffect(() => {
-        setMenuItems(getAllMenuItem({category: selectedItemType, filter: filterMenuItemsByCategory}));
+        setMenuItems(menuItemsController.getAll(selectedItemType));
     }, [selectedItemType]);
 
     return {

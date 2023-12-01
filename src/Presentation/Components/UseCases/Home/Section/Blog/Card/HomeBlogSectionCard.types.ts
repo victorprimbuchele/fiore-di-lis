@@ -1,4 +1,5 @@
 export interface HomeBlogSectionProps {
     image: string,
-    title: string
+    title: string,
+    slug: string
 }
