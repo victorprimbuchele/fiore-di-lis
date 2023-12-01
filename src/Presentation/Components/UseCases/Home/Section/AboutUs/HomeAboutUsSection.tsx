@@ -1,6 +1,6 @@
 export const HomeAboutUsSection: React.FC = () => {
     return (
-        <section id='sobre-nos' className='text-white px-12 md:px-24 2xl:px-60' key="about-us">
+        <section id='sobre-nos' className='text-white px-12 md:px-24 2xl:px-48 min-[2000px]:px-60' key="about-us">
             <div className='flex flex-col items:center sm:items-left mb-6'>
                 <h2 className='pt-20 md:pt-24 2xl:pt-40 border-b-8 border-b-white-italy font-serif text-4xl md:text-5xl 2xl:text-6xl w-fit'>SOBRE NÓS</h2>
             </div>
