@@ -1,7 +1,7 @@
 [
     {
         "image": {
-            "src": "src/assets/Menu/Menu/Items/pizza_vegetariana.png",
+            "src": "https://fiore-di-lis-2.s3.us-east-2.amazonaws.com/assets/Menu/Menu/Items/pizza_vegetariana.png",
             "alt": "Pizza vegetariana"
         },
         "title": "PIZZA VEGETARIANA",
@@ -11,7 +11,7 @@
     },
     {
         "image": {
-            "src": "src/assets/Menu/Menu/Items/pizza_vegetariana.png",
+            "src": "https://fiore-di-lis-2.s3.us-east-2.amazonaws.com/assets/Menu/Menu/Items/pizza_vegetariana.png",
             "alt": "Pizza vegetariana"
         },
         "alt": "Pizza vegetariana",
