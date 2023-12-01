@@ -9,12 +9,11 @@ export const Blog: React.FC = () => {
     const { post } = useBlogController(postName || '');
 
     return (
-        <div className="h-full">
+        <div id="blog-page-container" className="h-full">
             <BlogNavbar />
             {post && (
                 <BlogPost post={post} />
             )}
-
         </div>
     )
 }
